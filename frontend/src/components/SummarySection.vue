@@ -1,10 +1,14 @@
 <script setup lang="ts">
 import { useStore } from '../store'
+import type { Summary } from '../types'
 
 const { state } = useStore()
 
-function openOriginal(pmid: string) {
-  window.open(`https://pubmed.ncbi.nlm.nih.gov/${pmid}/`, '_blank', 'noopener')
+function openOriginal(s: Summary) {
+  // mock 阶段 PMID 为演示数据，按英文标题跳转 PubMed 搜索，确保能打开真实结果；
+  // 后端接入真实数据后，可改为 https://pubmed.ncbi.nlm.nih.gov/${s.pmid}/
+  const url = `https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(s.titleEn)}`
+  window.open(url, '_blank', 'noopener')
 }
 
 function formatAuthors(authors: string[]): string {
@@ -40,7 +44,7 @@ function formatAuthors(authors: string[]): string {
             <span>{{ s.pubDate }}</span>
             <span class="dot">|</span>
             <span>PMID: {{ s.pmid }}</span>
-            <button class="link" @click="openOriginal(s.pmid)">查看原文</button>
+            <button class="link" @click="openOriginal(s)">查看原文</button>
           </div>
         </header>
 

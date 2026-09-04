@@ -10,7 +10,7 @@ export const mockSummaries: Summary[] = [
     pmid: '32908398',
     titleEn: 'EGFR Mutation and Prognosis in Patients with Lung Adenocarcinoma: A Real-World Study',
     titleZh: '肺腺癌患者EGFR突变与预后的相关性研究',
-    authors: ['Zhang Wei', 'Li Ming', 'Wang Fang'],
+    authors: ['张伟', '李明', '王芳'],
     authorCount: 8,
     pubDate: '2023-01-15',
     abstractZh:
@@ -35,7 +35,7 @@ export const mockSummaries: Summary[] = [
     pmid: '33209543',
     titleEn: 'Application of EGFR Tyrosine Kinase Inhibitors in Lung Adenocarcinoma Targeted Therapy',
     titleZh: 'EGFR突变在肺腺癌靶向治疗中的应用',
-    authors: ['Liu Yang', 'Chen Jing', 'Zhao Lei'],
+    authors: ['刘洋', '陈静', '赵磊'],
     authorCount: 6,
     pubDate: '2023-03-22',
     abstractZh:
@@ -60,7 +60,7 @@ export const mockSummaries: Summary[] = [
     pmid: '33511287',
     titleEn: 'Comparison of Different Detection Methods for EGFR Mutation in Lung Adenocarcinoma',
     titleZh: '肺腺癌EGFR突变检测方法比较研究',
-    authors: ['Sun Qian', 'Zhou Xin', 'Wu Hao'],
+    authors: ['孙倩', '周欣', '吴昊'],
     authorCount: 7,
     pubDate: '2022-11-08',
     abstractZh:
@@ -85,7 +85,7 @@ export const mockSummaries: Summary[] = [
     pmid: '33890112',
     titleEn: 'Exon 19 Deletion versus L858R Mutation: Differential Prognosis in Lung Adenocarcinoma',
     titleZh: '19号外显子缺失与L858R突变肺腺癌患者预后的差异',
-    authors: ['Xu Jie', 'Gao Feng', 'Lin Yue'],
+    authors: ['徐杰', '高峰', '林悦'],
     authorCount: 9,
     pubDate: '2023-05-30',
     abstractZh:
@@ -110,7 +110,7 @@ export const mockSummaries: Summary[] = [
     pmid: '34123456',
     titleEn: 'Resistance Mechanisms to EGFR-TKIs in Advanced Lung Adenocarcinoma',
     titleZh: '晚期肺腺癌EGFR-TKI耐药机制研究进展',
-    authors: ['He Ping', 'Ma Chao', 'Deng Li'],
+    authors: ['何平', '马超', '邓丽'],
     authorCount: 5,
     pubDate: '2023-07-18',
     abstractZh:
@@ -135,7 +135,7 @@ export const mockSummaries: Summary[] = [
     pmid: '34456789',
     titleEn: 'Combination Therapy Strategies Targeting EGFR in Lung Adenocarcinoma',
     titleZh: '肺腺癌EGFR联合治疗策略研究',
-    authors: ['Tang Bo', 'Cao Yu', 'Feng Wei'],
+    authors: ['唐波', '曹宇', '冯伟'],
     authorCount: 10,
     pubDate: '2023-09-02',
     abstractZh:
@@ -160,7 +160,7 @@ export const mockSummaries: Summary[] = [
     pmid: '34789123',
     titleEn: 'Circulating Tumor DNA for Monitoring EGFR Mutation in Lung Adenocarcinoma',
     titleZh: '循环肿瘤DNA监测肺腺癌EGFR突变的应用',
-    authors: ['Guo Xiang', 'Hu Jing', 'Jiang Tao'],
+    authors: ['郭翔', '胡静', '蒋涛'],
     authorCount: 7,
     pubDate: '2022-08-15',
     abstractZh:
@@ -185,7 +185,7 @@ export const mockSummaries: Summary[] = [
     pmid: '35012345',
     titleEn: 'EGFR Mutation Status and Clinical Characteristics in Young-Onset Lung Adenocarcinoma',
     titleZh: '年轻肺腺癌患者EGFR突变状态与临床特征分析',
-    authors: ['Shen Lei', 'Tian Min', 'Xie Nan'],
+    authors: ['沈磊', '田敏', '谢楠'],
     authorCount: 6,
     pubDate: '2023-04-10',
     abstractZh:
@@ -210,7 +210,7 @@ export const mockSummaries: Summary[] = [
     pmid: '35345678',
     titleEn: 'Cost-Effectiveness of EGFR Testing in Lung Adenocarcinoma: A Systematic Review',
     titleZh: '肺腺癌EGFR检测的成本效益系统评价',
-    authors: ['Lu Bin', 'Pan Qi', 'Yan Rui'],
+    authors: ['陆斌', '潘琪', '闫瑞'],
     authorCount: 4,
     pubDate: '2023-06-25',
     abstractZh:
